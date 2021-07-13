@@ -1,0 +1,22 @@
+.appbar {
+    background-color: black;
+}
+
+.li__summary {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.li__log {
+    display: flex;
+}
+
+.li__text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.li__text_sub {
+    color: rgba(255, 255, 255, 0.7);
+}
