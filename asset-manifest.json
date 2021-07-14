@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/powerwall/static/css/main.04e1ae85.chunk.css",
+    "main.js": "/powerwall/static/js/main.64d5879a.chunk.js",
+    "main.js.map": "/powerwall/static/js/main.64d5879a.chunk.js.map",
+    "runtime-main.js": "/powerwall/static/js/runtime-main.8717750c.js",
+    "runtime-main.js.map": "/powerwall/static/js/runtime-main.8717750c.js.map",
+    "static/js/2.5ed7d706.chunk.js": "/powerwall/static/js/2.5ed7d706.chunk.js",
+    "static/js/2.5ed7d706.chunk.js.map": "/powerwall/static/js/2.5ed7d706.chunk.js.map",
+    "static/js/3.97ff721b.chunk.js": "/powerwall/static/js/3.97ff721b.chunk.js",
+    "static/js/3.97ff721b.chunk.js.map": "/powerwall/static/js/3.97ff721b.chunk.js.map",
+    "index.html": "/powerwall/index.html",
+    "static/css/main.04e1ae85.chunk.css.map": "/powerwall/static/css/main.04e1ae85.chunk.css.map",
+    "static/js/2.5ed7d706.chunk.js.LICENSE.txt": "/powerwall/static/js/2.5ed7d706.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8717750c.js",
+    "static/js/2.5ed7d706.chunk.js",
+    "static/css/main.04e1ae85.chunk.css",
+    "static/js/main.64d5879a.chunk.js"
+  ]
+}
