@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/powerwall/static/css/main.ae941e4f.chunk.css",
-    "main.js": "/powerwall/static/js/main.996b665b.chunk.js",
-    "main.js.map": "/powerwall/static/js/main.996b665b.chunk.js.map",
+    "main.js": "/powerwall/static/js/main.7626d7c3.chunk.js",
+    "main.js.map": "/powerwall/static/js/main.7626d7c3.chunk.js.map",
     "runtime-main.js": "/powerwall/static/js/runtime-main.bb930c4d.js",
     "runtime-main.js.map": "/powerwall/static/js/runtime-main.bb930c4d.js.map",
-    "static/js/2.0d4f2d9b.chunk.js": "/powerwall/static/js/2.0d4f2d9b.chunk.js",
-    "static/js/2.0d4f2d9b.chunk.js.map": "/powerwall/static/js/2.0d4f2d9b.chunk.js.map",
+    "static/js/2.df129de4.chunk.js": "/powerwall/static/js/2.df129de4.chunk.js",
+    "static/js/2.df129de4.chunk.js.map": "/powerwall/static/js/2.df129de4.chunk.js.map",
     "static/js/3.c1497849.chunk.js": "/powerwall/static/js/3.c1497849.chunk.js",
     "static/js/3.c1497849.chunk.js.map": "/powerwall/static/js/3.c1497849.chunk.js.map",
     "index.html": "/powerwall/index.html",
     "static/css/main.ae941e4f.chunk.css.map": "/powerwall/static/css/main.ae941e4f.chunk.css.map",
-    "static/js/2.0d4f2d9b.chunk.js.LICENSE.txt": "/powerwall/static/js/2.0d4f2d9b.chunk.js.LICENSE.txt",
+    "static/js/2.df129de4.chunk.js.LICENSE.txt": "/powerwall/static/js/2.df129de4.chunk.js.LICENSE.txt",
     "static/media/battery_wall.c565fe47.png": "/powerwall/static/media/battery_wall.c565fe47.png"
   },
   "entrypoints": [
     "static/js/runtime-main.bb930c4d.js",
-    "static/js/2.0d4f2d9b.chunk.js",
+    "static/js/2.df129de4.chunk.js",
     "static/css/main.ae941e4f.chunk.css",
-    "static/js/main.996b665b.chunk.js"
+    "static/js/main.7626d7c3.chunk.js"
   ]
 }
