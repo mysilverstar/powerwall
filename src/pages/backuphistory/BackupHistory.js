@@ -6,13 +6,14 @@ import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import Divider from "@material-ui/core/Divider";
 import "./BackupHistory.css"
+import { useHistory } from "react-router-dom";
 
 function BackupHistory() {
 
+  const history = useHistory();
   
   const getSum = () => {
     const seconds = backupLogs.logs.reduce((sum, { time }) => sum + time, 0);
-
     return secondsToTime(seconds).h;
   }
 
@@ -25,6 +26,7 @@ function BackupHistory() {
             className="menuButton"
             color="inherit"
             aria-label="menu"
+            onClick={()=>history.goBack()}
           >
             &lt;
           </IconButton>

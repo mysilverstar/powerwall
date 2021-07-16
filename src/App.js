@@ -1,8 +1,9 @@
 import "./App.css";
 
 import React from "react";
-import { HashRouter, Route } from "react-router-dom";
-import BackupHistory from "./routes/BackupHistory";
+import { HashRouter, Route, Switch} from "react-router-dom";
+import Main from "./pages/mainmenu/Main";
+import BackupHistory from "./pages/backuphistory/BackupHistory";
 import { createTheme, ThemeProvider } from '@material-ui/core/styles';
 
 function App() {
@@ -19,9 +20,12 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
-    <HashRouter>
-      <Route path="/" exact={true} component={BackupHistory} />
-    </HashRouter>
+      <HashRouter>
+        <Switch>
+          <Route path="/" exact={true} component={Main} />
+          <Route path="/backuphistory" component={BackupHistory} />
+        </Switch>
+      </HashRouter>
     </ThemeProvider>
   );
 }

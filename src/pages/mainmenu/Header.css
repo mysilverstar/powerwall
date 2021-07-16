@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.header__setting {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    margin: 0px 8px;
+}
+
+.header__title {
+    position: fixed;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+h4 {
+    margin: 0px;
+}

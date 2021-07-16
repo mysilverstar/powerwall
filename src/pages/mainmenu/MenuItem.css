@@ -1,0 +1,45 @@
+.menu__item {
+    display: flex;
+    height: 52px;
+    align-items: center;
+    /* justify-content: center; 수평으로 중앙정렬*/
+    /*border: 1px solid lightgray; 수직정렬 확인용 border */
+}
+
+.menu__item:active {
+    background-color: dimgray;
+}
+
+.menu__icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 18px;
+    margin-right: 10px;
+}
+
+.menu__title {
+    height: 45px;
+    display: grid; /* div 안에 두 개의 div 를 아래 위로 놓고 수직 정렬하기 위해 사용 #1 */
+}
+
+.menu__1stline {
+    align-self: center; /* div 안에 두 개의 div 를 아래 위로 놓고 수직 정렬하기 위해 사용 #2 */
+    font-size: 17px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+.menu__2ndline {
+    /*align-self: center;  div 안에 두 개의 div 를 아래 위로 놓고 수직 정렬하기 위해 사용 #3 없어도 되네... */
+    font-size: 14px;
+    color: darkgray;
+    margin-bottom: 3px;
+}
+
+.menu__arrow {
+    width: 24px;
+    margin-right: 18px;
+    position: fixed;
+    right: 0;
+}
